@@ -2,7 +2,7 @@
 
 # Papers
 
-### Thermonuclear Burning on Rapidly Accreting Neutron Stars
+### Thermonuclear Burning on Rapidly Accreting Neutron Stars, Bildsten 1998
 * Thermal stability and nuclear ignition depend on the accretion rate **per unit area**
     - Hence this defines **local** behavior on the neutron star and it can differ between spots on the star
     - ?Does this mean that if the accretion happens at different latitudes, due to different "rotational smearing" this can already change?
@@ -20,5 +20,24 @@
     - ?This one-dimensionality is about the spread of the fuel accros the NS, not the shape of the NS itself? Ch5 expands on this a bit
     - See **Table 1** for a detailed overview, on page 17
     - These conditions can be broken, see Ch3.3 
+
+
+# Books
+
+### Black Holes, White Dwarfs, and Neutron stars, Shapiro Teukolsky
+
+Chapter 2
+
+* Global elements (large-scale) versus Local elements (small scale)
+    - Global: gravity, electromagnetic fields, rotation etc
+    - Local: pressure, viscosity, emissivity etc
+* At high densities, inverse \beta-decay is the most important correction to the EoS
+    - e + p -> n + \nu
+    - Will assume that the neutrino's from this reaction escape the system
+    - Reaction can proceed when e has enough energy (1.29MeV, mass diff between n and p, *c²)
+* For densities above ~ 4e11 g/cm³ the n/p ratio becomes critical - any further increase in density will lead to *neutron drip*, which is a two-phase system where electrons, nuclei and **free neutrons** co-exist
+    - The higher the density goes, the more free neutrons you get
+    - Above 4e12 g/cm³, the neutrons add more pressure than the electrons. This medium, controlled by the neutron gas can be described as one large nucleus with a lower-than-normal nuclear density
+
 
 
