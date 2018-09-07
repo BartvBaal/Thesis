@@ -40,4 +40,21 @@ Chapter 2
     - Above 4e12 g/cm³, the neutrons add more pressure than the electrons. This medium, controlled by the neutron gas can be described as one large nucleus with a lower-than-normal nuclear density
 
 
+Chapter 6
+
+* Fluids recap, ?although it doesn't mention perturbations are only considered to first order?
+* Stability criterium: E_2 = \delta²E = T_2 + V_2, where the sub_2 denotes variation of the second level, as the first level E_1 for the equilibrium energy is zero
+    - T = kinetic energy of perturbation - can never be negative, per definition
+    - V = potential energy of perturbation
+    - If E_2 is **positive** for all initial data (\xi^i, d_t\xi^i) then V_2 will be positive and *thus the system will be stable*. On the other hand, if E_2 is **negative** for any (\xi^i, d_t\xi^i) then V_2 must be negative and there exists an instability
+* Equivalent stability criteria are:
+    - V_2 >= 0 for all perturbations
+    - E_2 >= 0 for all perturbations
+    - \omega² >= 0 for all modes
+    - \bar\Gamma_1 >= 4/3 (radial stability only - its the pressure-averaged adiabatic index). \Gamma_1 = (\delta ln P) / (\delta ln \rho)
+* General relativity tends to destabilize configurations, as gravity is stronger and thus collapse/instability comes easier
+     - **Remember**; c = G = 1 for GR stuff
+* GR can be used to rule out WD as pulsar candidates, since they cannot get below ~2s pulsation times and ms pulsars are known (p.161)
+    - ?But why does it rule out slower pulsars, couldn't there be low mass low frequency pulsars that are actually WD?
+
 
