@@ -7,15 +7,11 @@
     - Hence this defines **local** behavior on the neutron star and it can differ between spots on the star
     - ?Does this mean that if the accretion happens at different latitudes, due to different "rotational smearing" this can already change?
     - Magnetic fields can change the accretion location
-
 * If the helium ignites before all the hydrogen has been burned, there will be more C to be used in the hydrogen-burning CNO cycle -> ?does that mean that the surface burning increases over time?
     - ?Can it even prevent bursts from happening at all, instead keeping a steady state of burning?
-
 * ?**All** nuclear burning is thin shell burning, on the neutron star surface?
-
 * The outcome of an unstable helium flash depends on the neutron star *radius* and *mass* - ?which might be linked in a general NS EoS?
     - **NOTE** find where this is mentioned again, end of Ch2, start of Ch3?
-
 * In one dimension (?radial component?), the system will always evolve into a cycle, gathering fuel for a time before eventually a thermal instability is reached which can be observed
     - ?This one-dimensionality is about the spread of the fuel accros the NS, not the shape of the NS itself? Ch5 expands on this a bit
     - See **Table 1** for a detailed overview, on page 17
@@ -56,5 +52,16 @@ Chapter 6
      - **Remember**; c = G = 1 for GR stuff
 * GR can be used to rule out WD as pulsar candidates, since they cannot get below ~2s pulsation times and ms pulsars are known (p.161)
     - ?But why does it rule out slower pulsars, couldn't there be low mass low frequency pulsars that are actually WD?
+
+
+Chapter 7
+
+* 7.1 recaps the addition of magnetic fields into the fluid equations, useful background
+* Difference between *secular* and *dynamic* instabilities in Maclaurin spheroids comes from dissipative terms - if a dissipative term is needed to cause the instability, it is called a *secular* instability. Otherwise it is a *dynamic* instability.
+    - ?Still stable up to high eccentricities, so those instabilities should not impact me?
+    - Dynamic instabilities grow on the dynamical timescale ~(G\rho)^-½
+* Maclaurin spheroids beyond the bifurcation point (e>.81267) are secularly unstable to becoming **Jacobi** ellipsoids (*spinning footballs*) and **Dedekind** ellipsoids (*stationary footballs*, stationary shape but the ellipsoidal surface is maintained through the rotation of an inner fluid)
+    - ?Do NS rotate uniformly? End of Ch7.3
+
 
 
