@@ -61,7 +61,11 @@ Chapter 7
     - ?Still stable up to high eccentricities, so those instabilities should not impact me?
     - Dynamic instabilities grow on the dynamical timescale ~(G\rho)^-½
 * Maclaurin spheroids beyond the bifurcation point (e>.81267) are secularly unstable to becoming **Jacobi** ellipsoids (*spinning footballs*) and **Dedekind** ellipsoids (*stationary footballs*, stationary shape but the ellipsoidal surface is maintained through the rotation of an inner fluid)
-    - ?Do NS rotate uniformly? End of Ch7.3
-
+    - ?Jacobi ellipsoids are tri-axial, while Maclaurin spheres are bi-axial?
+    - ?Do NS rotate uniformly? End of Ch7.3 - page 180 says realistic stars rotate **differentially**, at least in their outer layers
+* Rotational energy has a steeper dependence on the adius than the internal energy in the relativistic limit
+    - Equilibrium can always be achieved for *any* mass by decreasing the radius of the current configuration, so an equilibrium model can be constructed for *any* mass provided the angular momentum is nonzero. However, you might create a model which is so dense that it violates your EoS, so it is not necessarily a *physical* model
+* Stellar contraction without angular momentum loss requires that T/|W| (T = rotational kinetic energy, W = gravitational potential energy) increases as 1/R, so rotation is likely more important in a CO than the MS progenitor
+* >> Rotation tends to **stabilize** radial modes <<
 
 
