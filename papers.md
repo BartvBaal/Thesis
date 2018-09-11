@@ -66,6 +66,29 @@ Chapter 7
 * Rotational energy has a steeper dependence on the adius than the internal energy in the relativistic limit
     - Equilibrium can always be achieved for *any* mass by decreasing the radius of the current configuration, so an equilibrium model can be constructed for *any* mass provided the angular momentum is nonzero. However, you might create a model which is so dense that it violates your EoS, so it is not necessarily a *physical* model
 * Stellar contraction without angular momentum loss requires that T/|W| (T = rotational kinetic energy, W = gravitational potential energy) increases as 1/R, so rotation is likely more important in a CO than the MS progenitor
-* >> Rotation tends to **stabilize** radial modes <<
+* Rotation tends to **stabilize** radial modes
+
+
+Chapter 9
+
+* Low-density NS with an ideal neutron gas EoS have the n=3/2 polytrope
+    - R = 14.64 (\rho_c / 1e15 g/cm³)^(-1/6) km
+    - M = 1.102 (\rho_c / 1e15 g/cm³)^.5 M_sol, so M = (15.12km / R)³ M_sol
+    - In this calculation there is no minimum NS mass (\rho_c can go to zero), although at low density the NS will become unstable to \beta-decay
+    - See page 245-247 for an approximate derivation, although it comes out ~40% too high (at 1.03 M_sol)
+* Stiff EoS leads to a greater M_max than soft ones
+* Stiff EoS leads to a lower \rho_c, higher R and thicker crust when compared to soft EoS *at the same mass*
+* Different regions in NS can be identified (See Pandharipande, Pines and Smith 1976):
+    - **Surface** (\rho <= 1e6 g/cm³), region where the temperatures and magnetic fields expected for most NS can significantly affect the EoS
+    - **Outer Crust** (1e6 <= \rho <= 4.3e11 g/cm³), a solid region with a Coulomb lattice of heavu nuclei, which coexist in \beta-equilibrium with a relativistic degenerate electron gas
+    - **Inner Crust** (4.3e11 <= \rho <= 2-2.4e14 g/cm³), a lattice of neutron-rich nuclei together with a superfuild neutron gas and an electron gas
+    - **Neutron Liquid** (2-2.4e14 g/cm³), chiefly made up from superfluid neutrons with smaller concentrations of sluiderfluid protons and normal electrons
+    - **Core** (\rho > \rho_core), which is unsure to exist in all stars, which might also depend on whether or not pion condensation occurs, or whether there is a transition to a neutron solid or quark matter or some other phase physicall distinct from a neutron liquid at densities above some critical value \rho_core
+* Rapidly rotating configurations in general relativity are technically difficult to construct, with no simple stability criteria known. Existing calculations are build on assumptions:
+    - Slow rotation (Hartle 1967, Hartle and Thorne 1968, Abramowicz and Wagoner 1976)
+    - Uniform rotation and homogeneous configurations (Butterworth and Ipser 1975, 1976)
+    - post-Newtonian gravity and an ideal Fermi gas EoS (Shapiro and Lightman 1976(b))
+
+
 
 
