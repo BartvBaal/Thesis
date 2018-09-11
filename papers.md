@@ -19,9 +19,13 @@
 
 
 ### The Rapid Proton Process ashes from Stable Nuclear Burning on an Accreting Neutron Star, Schatz, Bildsten & Cumming 1999
-* H/He burning is thermally stable at high accretion rates (M_dot > 1-8 M_sol/year)
+* H/He burning is thermally stable at high accretion rates (M_dot > 1e-8 M_sol/year)
 * The composition of an accreted/accreting NS ocean and crust is very different from the primordial one, due to electron captures, neutron emissions and pycnonuclear reactions which release energy locally and drive the matter neutron rich
     - As the H burning of these rapidly accreting NS goes via the rapid proton (rp) process, a complicated mix of elements is created, nearly all of them heavier than iron
+* Used an rp-network that included 631 nuclei betwen hydrogen and ¹⁰⁰Sn
+    - It covers the range of stability to the proton drip line
+    - All proton-, neutron-, and \alpha-induced reactions as well as photodisintegration, \beta⁺ decay and electron capture are considered
+* For the EoS, it was assumed the ions behave as an ideal gas as Coulomb corrections to the ion EoS is unimportant at the column depths of interest
 
 
 
