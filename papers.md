@@ -18,9 +18,18 @@
     - These conditions can be broken, see Ch3.3 
 
 
+### The Rapid Proton Process ashes from Stable Nuclear Burning on an Accreting Neutron Star, Schatz, Bildsten & Cumming 1999
+* H/He burning is thermally stable at high accretion rates (M_dot > 1-8 M_sol/year)
+* The composition of an accreted/accreting NS ocean and crust is very different from the primordial one, due to electron captures, neutron emissions and pycnonuclear reactions which release energy locally and drive the matter neutron rich
+    - As the H burning of these rapidly accreting NS goes via the rapid proton (rp) process, a complicated mix of elements is created, nearly all of them heavier than iron
+
+
+
+---
+
 # Books
 
-### Black Holes, White Dwarfs, and Neutron stars, Shapiro Teukolsky
+### Black Holes, White Dwarfs, and Neutron stars, Shapiro & Teukolsky 1983
 
 Chapter 2
 
