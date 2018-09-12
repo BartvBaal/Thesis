@@ -21,11 +21,19 @@
 ### The Rapid Proton Process ashes from Stable Nuclear Burning on an Accreting Neutron Star, Schatz, Bildsten & Cumming 1999
 * H/He burning is thermally stable at high accretion rates (M_dot > 1e-8 M_sol/year)
 * The composition of an accreted/accreting NS ocean and crust is very different from the primordial one, due to electron captures, neutron emissions and pycnonuclear reactions which release energy locally and drive the matter neutron rich
-    - As the H burning of these rapidly accreting NS goes via the rapid proton (rp) process, a complicated mix of elements is created, nearly all of them heavier than iron
+    - As the H burning of these rapidly accreting NS goes via the rapid proton (rp, Wallace & Woosley 1981) process, a complicated mix of elements is created, nearly all of them heavier than iron
 * Used an rp-network that included 631 nuclei betwen hydrogen and ¹⁰⁰Sn
     - It covers the range of stability to the proton drip line
     - All proton-, neutron-, and \alpha-induced reactions as well as photodisintegration, \beta⁺ decay and electron capture are considered
-* For the EoS, it was assumed the ions behave as an ideal gas as Coulomb corrections to the ion EoS is unimportant at the column depths of interest
+* For the EoS, it was assumed the ions behave as an ideal gas because Coulomb corrections to the ion EoS is unimportant at the column depths of interest
+* When burning is thermally stable, He is consumed within 20 minutes which enhances the number of CNO seed nuclei and when coupled with the breakout from the CNO cycle it leads to a rapid consumption of H through the rp-process
+* For all accretion rates where the burning is in a steady state, consumption of H by the CNO cycle is not important before He ignition, the He ignition acts as the trigger for H burning
+    - For these accretion rates this high (stable burning has M_dot > 1e-8 M_sol/year), the depth for the CNO cycle is much greater than the depth for He burning, so He ignites before a significant portion of H has been burned
+    - This is still true when considering breakouts from the hot CNO cycle
+* The strong temperature sensitivity of the (\alpha, p) reactions (eg ¹⁴O(\alpha, p)¹⁷F) in the \alpha p process is imprinted on the rp-process ashes
+    - In addition, some of these nuclear processes are more sensitive to single proton captures than others, or follow 2p capture reactions (eg ²²Mg <-> ²³Al are in (p, \gamma) <-> (\gamma, p) balance, but ²³Al(p, \gamma)²⁴Si creates a flow from ²²Mg to ²⁴Si) - >nuclear stuff is complex<
+* ?How realistic/physical are the 1, 5, 20 and 50 m_dot models?
+
 
 
 
@@ -101,7 +109,7 @@ Chapter 9
     - Slow rotation (Hartle 1967, Hartle and Thorne 1968, Abramowicz and Wagoner 1976)
     - Uniform rotation and homogeneous configurations (Butterworth and Ipser 1975, 1976)
     - post-Newtonian gravity and an ideal Fermi gas EoS (Shapiro and Lightman 1976(b))
-
+* ?If crust replacement takes place, what happens to the former crust - it moves down into the neutron liquid? So whatever is the makeup of the central regions of a NS, it can be created through *regular* means and does not depend on explosive creation techniques?
 
 
 
