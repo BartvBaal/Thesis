@@ -7,3 +7,6 @@
 * Visualize the problem (rotating sphere with small patch rotating slightly differently)
 
 * for intro; density/physical depth/coumn depth difference should be discussed
+
+
+#### 13 Sep 18

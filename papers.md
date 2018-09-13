@@ -18,22 +18,23 @@
     - These conditions can be broken, see Ch3.3 
 
 
-### The Rapid Proton Process ashes from Stable Nuclear Burning on an Accreting Neutron Star, Schatz, Bildsten & Cumming 1999
+### The Rapid Proton Process Ashes from Stable Nuclear Burning on an Accreting Neutron Star, Schatz, Bildsten & Cumming 1999
 * H/He burning is thermally stable at high accretion rates (M_dot > 1e-8 M_sol/year)
-* The composition of an accreted/accreting NS ocean and crust is very different from the primordial one, due to electron captures, neutron emissions and pycnonuclear reactions which release energy locally and drive the matter neutron rich
+* The composition of an accreted/accreting NS ocean and crust is very different from the primordial one, due to electron captures, neutron emissions and pycnonuclear (nuclear reactions caused by the density) reactions which release energy locally and drive the matter neutron rich
     - As the H burning of these rapidly accreting NS goes via the rapid proton (rp, Wallace & Woosley 1981) process, a complicated mix of elements is created, nearly all of them heavier than iron
-* Used an rp-network that included 631 nuclei betwen hydrogen and ¹⁰⁰Sn
-    - It covers the range of stability to the proton drip line
+* Used an rp-network that included 631 nuclei between hydrogen and ¹⁰⁰Sn
+    - It covers the range of stability to the **proton drip line** (nuclear decay that emits protons)
     - All proton-, neutron-, and \alpha-induced reactions as well as photodisintegration, \beta⁺ decay and electron capture are considered
 * For the EoS, it was assumed the ions behave as an ideal gas because Coulomb corrections to the ion EoS is unimportant at the column depths of interest
 * When burning is thermally stable, He is consumed within 20 minutes which enhances the number of CNO seed nuclei and when coupled with the breakout from the CNO cycle it leads to a rapid consumption of H through the rp-process
-* For all accretion rates where the burning is in a steady state, consumption of H by the CNO cycle is not important before He ignition, the He ignition acts as the trigger for H burning
-    - For these accretion rates this high (stable burning has M_dot > 1e-8 M_sol/year), the depth for the CNO cycle is much greater than the depth for He burning, so He ignites before a significant portion of H has been burned
+* For all accretion rates where the burning is in a steady state, consumption of H by the CNO cycle is **not** important before He ignition, the He ignition acts as the trigger for H burning
+    - For these accretion rates this high (stable burning has M_dot > 1e-8 M_sol/year), the *depth for the CNO cycle is much greater than the depth for He burning*, so He ignites before a significant portion of H has been burned
     - This is still true when considering breakouts from the hot CNO cycle
 * The strong temperature sensitivity of the (\alpha, p) reactions (eg ¹⁴O(\alpha, p)¹⁷F) in the \alpha p process is imprinted on the rp-process ashes
     - In addition, some of these nuclear processes are more sensitive to single proton captures than others, or follow 2p capture reactions (eg ²²Mg <-> ²³Al are in (p, \gamma) <-> (\gamma, p) balance, but ²³Al(p, \gamma)²⁴Si creates a flow from ²²Mg to ²⁴Si) - >nuclear stuff is complex<
 * ?How realistic/physical are the 1, 5, 20 and 50 m_dot models?
-
+* ?They used stable burning calculations to find out what happens to the remnants of the accreted, burned material at higher densities - how much of this is applicable for unstable burning?
+* ?Stable =/= continuus burning? (Fig 4, drop in H abundance) ?Or did they compare a "flash frame setup" decay?
 
 
 
@@ -72,7 +73,7 @@ Chapter 6
 * General relativity tends to destabilize configurations, as gravity is stronger and thus collapse/instability comes easier
      - **Remember**; c = G = 1 for GR stuff
 * GR can be used to rule out WD as pulsar candidates, since they cannot get below ~2s pulsation times and ms pulsars are known (p.161)
-    - ?But why does it rule out slower pulsars, couldn't there be low mass low frequency pulsars that are actually WD?
+    - ?But why does it rule out slower pulsars, couldn't there be low mass low frequency pulsars that are actually WD? -- Geometry arguments that the slow pulsars are not that different from the fast ones so they're most likely also NS
 
 
 Chapter 7
@@ -81,8 +82,8 @@ Chapter 7
 * Difference between *secular* and *dynamic* instabilities in Maclaurin spheroids comes from dissipative terms - if a dissipative term is needed to cause the instability, it is called a *secular* instability. Otherwise it is a *dynamic* instability.
     - ?Still stable up to high eccentricities, so those instabilities should not impact me?
     - Dynamic instabilities grow on the dynamical timescale ~(G\rho)^-½
-* Maclaurin spheroids beyond the bifurcation point (e>.81267) are secularly unstable to becoming **Jacobi** ellipsoids (*spinning footballs*) and **Dedekind** ellipsoids (*stationary footballs*, stationary shape but the ellipsoidal surface is maintained through the rotation of an inner fluid)
-    - ?Jacobi ellipsoids are tri-axial, while Maclaurin spheres are bi-axial?
+* Maclaurin spheroids beyond the bifurcation point (e>.81267) are secularly unstable to becoming **Jacobi** ellipsoids (*spinning rugbyball*) and **Dedekind** ellipsoids (*stationary rugbyball*, stationary shape but the ellipsoidal surface is maintained through the rotation of an inner fluid)
+    - ?Jacobi ellipsoids are tri-axial, while Maclaurin spheres are bi-axial? -- You can rotate a Maclaurin sphere (no radial dependance on the shape of the sphere, Jacobi as a rugbyball does have this)
     - ?Do NS rotate uniformly? End of Ch7.3 - page 180 says realistic stars rotate **differentially**, at least in their outer layers
 * Rotational energy has a steeper dependence on the adius than the internal energy in the relativistic limit
     - Equilibrium can always be achieved for *any* mass by decreasing the radius of the current configuration, so an equilibrium model can be constructed for *any* mass provided the angular momentum is nonzero. However, you might create a model which is so dense that it violates your EoS, so it is not necessarily a *physical* model
@@ -110,6 +111,8 @@ Chapter 9
     - Uniform rotation and homogeneous configurations (Butterworth and Ipser 1975, 1976)
     - post-Newtonian gravity and an ideal Fermi gas EoS (Shapiro and Lightman 1976(b))
 * ?If crust replacement takes place, what happens to the former crust - it moves down into the neutron liquid? So whatever is the makeup of the central regions of a NS, it can be created through *regular* means and does not depend on explosive creation techniques?
+
+* Accreted crust is also called a dirty crust (by Brown)
 
 
 
