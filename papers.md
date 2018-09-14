@@ -55,7 +55,7 @@
 * Math questions below
 * ?Eq 5 and 6 infer that \xi_r, p' and \rho' have the same polar dependence - but isn't this already implied through the "uniformly rotating star" part?
     - ?Can get expressions for \xi_r, p' and \rho', but not sure how it "shows" that they should share a \theta-dependence through that?
-* ?Derivation of \xi_\theta and \xi_\phi like in Lee&Saio \rho goes into the d/d\theta & d/d\phi equation - why is that allowed, because of ^?
+* ?Derivation of \xi_\theta and \xi_\phi like in Lee&Saio \rho goes into the d/d\theta & d/d\phi equation - why is that allowed, because of ^? -- Can reproduce their eq 8&9 from townsend eq 2&7
 
 
 
