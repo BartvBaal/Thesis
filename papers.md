@@ -46,11 +46,16 @@
     - \Omega << (GM/R³)^.5 - centrifugal distortion of the quiescent star may be neglected (?Can bursting NS be considered quiescent?)
     - Perturbations to specific entropy can be neglected (adiabatic approximation)
     - Perturbations to the gravitation potential may be neglected (Cowling 1941 approximation)
+    - The neglected horizontal component mentioned above is what is called "the traditional approxtimation" - see Lee&Saio 1997 for math behind this approximation
 * For the separated pulsation equations:
     - The azimuthal (\phi) dependence of modes is the same as in the case without rotation (and trivial to solve)
     - The polar (\theta) dependence is governed by Laplace's tidal equations. The eigensolutions are named after their originator Hough (1898)
     - the Hough functions constitute a one-parameter family in the "spin parameter" \nu \equiv 2\Omega/\omega. These are associated with an eigenvalue \lambda which is related to the effective horizontal wavenumber k_\perp of the pulsation via (k_\perp)²=\lambda/(r²). *Note* that negative values of \lambda **can** arise but they are not considered for this paper
 * General values of the spin parameter \nu force a numerical approach to solving Laplace's equations. However, approximate analytical solutions can be obtained which become exact in the asymptotic limit of large |\nu|
+* Math questions below
+* ?Eq 5 and 6 infer that \xi_r, p' and \rho' have the same polar dependence - but isn't this already implied through the "uniformly rotating star" part?
+    - ?Can get expressions for \xi_r, p' and \rho', but not sure how it "shows" that they should share a \theta-dependence through that?
+* ?Derivation of \xi_\theta and \xi_\phi like in Lee&Saio \rho goes into the d/d\theta & d/d\phi equation - why is that allowed, because of ^?
 
 
 
