@@ -37,6 +37,22 @@
 * ?Stable =/= continuus burning? (Fig 4, drop in H abundance) ?Or did they compare a "flash frame setup" decay?
 
 
+### Asymptotic expressions for the angular dependence of low-frequency pulsation modes in rotating stars, Townsend 2003
+* ?How low frequency is "low-frequency"?
+    - Low-frequency pulsation modes does **not** mean the star is slowly rotating per se
+* ?Condition for the star to be rotating with angular velocity (\Omega) which is uniform, but aren't NS rotating differentially?
+* The traditional approximation permits the separation of the pulsation equations in all three spherical-polar coordinates (r, \theta, \phi) under the conditions:
+    - Star is rotating with *uniform* angular velocity **\Omega**, *with* a neglected horizontal component when evaulating the inertial Coriolis force in the linearized momentum equations - this is valid when \Omega \equiv |**\Omega**| and \omega (pulsation angular frequency) in the corotating frame is significantly smaller than the Brunt-Väisälä frequency N
+    - \Omega << (GM/R³)^.5 - centrifugal distortion of the quiescent star may be neglected (?Can bursting NS be considered quiescent?)
+    - Perturbations to specific entropy can be neglected (adiabatic approximation)
+    - Perturbations to the gravitation potential may be neglected (Cowling 1941 approximation)
+* For the separated pulsation equations:
+    - The azimuthal (\phi) dependence of modes is the same as in the case without rotation (and trivial to solve)
+    - The polar (\theta) dependence is governed by Laplace's tidal equations. The eigensolutions are named after their originator Hough (1898)
+    - the Hough functions constitute a one-parameter family in the "spin parameter" \nu \equiv 2\Omega/\omega. These are associated with an eigenvalue \lambda which is related to the effective horizontal wavenumber k_\perp of the pulsation via (k_\perp)²=\lambda/(r²). *Note* that negative values of \lambda **can** arise but they are not considered for this paper
+* General values of the spin parameter \nu force a numerical approach to solving Laplace's equations. However, approximate analytical solutions can be obtained which become exact in the asymptotic limit of large |\nu|
+
+
 
 ---
 
