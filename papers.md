@@ -32,9 +32,9 @@
     - This is still true when considering breakouts from the hot CNO cycle
 * The strong temperature sensitivity of the (\alpha, p) reactions (eg ¹⁴O(\alpha, p)¹⁷F) in the \alpha p process is imprinted on the rp-process ashes
     - In addition, some of these nuclear processes are more sensitive to single proton captures than others, or follow 2p capture reactions (eg ²²Mg <-> ²³Al are in (p, \gamma) <-> (\gamma, p) balance, but ²³Al(p, \gamma)²⁴Si creates a flow from ²²Mg to ²⁴Si) - >nuclear stuff is complex<
-* ?How realistic/physical are the 1, 5, 20 and 50 m_dot models?
-* ?They used stable burning calculations to find out what happens to the remnants of the accreted, burned material at higher densities - how much of this is applicable for unstable burning?
-* ?Stable =/= continuus burning? (Fig 4, drop in H abundance) ?Or did they compare a "flash frame setup" decay?
+* ?How realistic/physical are the 1, 5, 20 and 50 m_dot models? -- They're superEddington, and also the rates needed to reach stable burning
+* ?They used stable burning calculations to find out what happens to the remnants of the accreted, burned material at higher densities - how much of this is applicable for unstable burning? -- Very little applies to unstable burning, mostly an example of how nuclear physics get involved
+* ?Stable =/= continuus burning? (Fig 4, drop in H abundance) ?Or did they compare a "flash frame setup" decay? -- Probably followed a "package" down into the NS
 
 
 ### Asymptotic expressions for the angular dependence of low-frequency pulsation modes in rotating stars, Townsend 2003
@@ -146,7 +146,7 @@ Chapter 3
 * Because of incompressibility and constant density the dynamics and thermodynamics are decoupled
     - Mass conservation reduces to incompressibility condition deltau/deltax + deltav/deltay  +deltaw/deltaz = 0 (u, v, w are velocity components in the x, y, z direction respectively)
     - Take U the characteristic scale for horizontal velocity and W the scale for vertical velocity. The first two terms of the eq above goes as O(U/L) and thus it follows that W/D cannot be larger than this O(U/L), so W =< O(\delta U)
-* Estimating the terms in the momentum equation (\rho[d**u**/dt + 2**\Omega** \cross **u**] = -\nabla p + \rho \nabla \Phi + *F*) leads to the hydrostatic approximation, deltap/deltaz = -\rho g + O(\delta²)
+* Estimating the terms in the momentum equation (\rho[d**u**/dt + 2 **\Omega** \cross **u**] = -\nabla p + \rho \nabla \Phi + *F*) leads to the hydrostatic approximation, deltap/deltaz = -\rho g + O(\delta²)
 * Integrating this new condition and applying the correct boundary condition leads to the conclusion that the horizontal pressure gradient is independent of z
     - So deltap/deltax = \rho g deltah/deltax
     - And deltap/deltay = \rho g deltah/deltay
