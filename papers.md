@@ -53,7 +53,7 @@
     - the Hough functions constitute a one-parameter family in the "spin parameter" \nu \equiv 2\Omega/\omega. These are associated with an eigenvalue \lambda which is related to the effective horizontal wavenumber k_\perp of the pulsation via (k_\perp)²=\lambda/(r²). *Note* that negative values of \lambda **can** arise but they are not considered for this paper
 * General values of the spin parameter \nu force a numerical approach to solving Laplace's equations. However, approximate analytical solutions can be obtained which become exact in the asymptotic limit of large |\nu|
 * Math questions below
-* ?I can get expressions specifically for \xi_\theta and \xi_\phi - why does the paper have sin\theta \xi_\theta and isin\theta \xi\phi expressions instead in eq 11/12? "Simplify" how?
+* ?Eq 17 in the paper has minus signs on the LHS; I do not have any minus signs in my first \Theta^, \Theta~, \Theta equation, but I do get the matching Y_\perp:Y_p equation (14)? -- ??Checked with Frank he also doesn't get the - signs, and when checking with Bildsten 1995 paper to recover L_\mu=-\lambda (eq6 for L_\mu) it looks like I need the - signs to get it to work??
 
 
 
