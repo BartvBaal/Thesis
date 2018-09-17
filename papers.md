@@ -133,6 +133,30 @@ Chapter 9
     - post-Newtonian gravity and an ideal Fermi gas EoS (Shapiro and Lightman 1976(b))
 * ?If crust replacement takes place, what happens to the former crust - it moves down into the neutron liquid? So whatever is the makeup of the central regions of a NS, it can be created through *regular* means and does not depend on explosive creation techniques?
 
+
+
+### Geophysical Fluid Dynamics (2nd edition), Pedlosky 1987
+
+Chapter 3
+
+* Dynamics of a shallow, rotating layer of a homogeneous incompressible and inviscid fluid
+* Fundamental parametric condition for shallow-water theory: \delta = D/L << 1 
+    - D is the average depth of the layer
+    - L is the characteristic horizontal length scale for the motion
+* Because of incompressibility and constant density the dynamics and thermodynamics are decoupled
+    - Mass conservation reduces to incompressibility condition deltau/deltax + deltav/deltay  +deltaw/deltaz = 0 (u, v, w are velocity components in the x, y, z direction respectively)
+    - Take U the characteristic scale for horizontal velocity and W the scale for vertical velocity. The first two terms of the eq above goes as O(U/L) and thus it follows that W/D cannot be larger than this O(U/L), so W =< O(\delta U)
+* Estimating the terms in the momentum equation (\rho[d**u**/dt + 2**\Omega** \cross **u**] = -\nabla p + \rho \nabla \Phi + *F*) leads to the hydrostatic approximation, deltap/deltaz = -\rho g + O(\delta²)
+* Integrating this new condition and applying the correct boundary condition leads to the conclusion that the horizontal pressure gradient is independent of z
+    - So deltap/deltax = \rho g deltah/deltax
+    - And deltap/deltay = \rho g deltah/deltay
+    - So horizontal accelerations are independent of z and it is consistent to assume they will remain so at later times
+
+
+
+---
+# General Notes/comments
+
 * Accreted crust is also called a dirty crust (by Brown)
 
 
