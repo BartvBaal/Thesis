@@ -41,6 +41,7 @@
 * ?How low frequency is "low-frequency"?
     - Low-frequency pulsation modes does **not** mean the star is slowly rotating per se
 * ?Condition for the star to be rotating with angular velocity (\Omega) which is uniform, but aren't NS rotating differentially?
+* ?To be sure - "equatorial" waves means they are 'stuck' on the equator right?
 * The traditional approximation permits the separation of the pulsation equations in all three spherical-polar coordinates (r, \theta, \phi) under the conditions:
     - Star is rotating with *uniform* angular velocity **\Omega**, *with* a neglected horizontal component when evaulating the inertial Coriolis force in the linearized momentum equations - this is valid when \Omega \equiv |**\Omega**| and \omega (pulsation angular frequency) in the corotating frame is significantly smaller than the Brunt-Väisälä frequency N
     - \Omega << (GM/R³)^.5 - centrifugal distortion of the quiescent star may be neglected (?Can bursting NS be considered quiescent?)
@@ -53,7 +54,7 @@
     - the Hough functions constitute a one-parameter family in the "spin parameter" \nu \equiv 2\Omega/\omega. These are associated with an eigenvalue \lambda which is related to the effective horizontal wavenumber k_\perp of the pulsation via (k_\perp)²=\lambda/(r²). *Note* that negative values of \lambda **can** arise but they are not considered for this paper
 * General values of the spin parameter \nu force a numerical approach to solving Laplace's equations. However, approximate analytical solutions can be obtained which become exact in the asymptotic limit of large |\nu|
 * Math questions below
-* ~~?Eq 17 in the paper has minus signs on the LHS; I do not have any minus signs in my first \Theta^, \Theta~, \Theta equation, but I do get the matching Y_\perp:Y_p equation (14)? -- ??Checked with Frank he also doesn't get the - signs, and when checking with Bildsten 1996 paper to recover L_\mu=-\lambda (eq6 for L_\mu) it looks like I need the - signs to get it to work??
+* ~~?Eq 17 in the paper has minus signs on the LHS; I do not have any minus signs in my version of eq17, but I do get the matching Y_\perp:Y_p equation (14)? -- ??Checked with Frank he also doesn't get the - signs, and when checking with Bildsten 1996 paper to recover L_\mu=-\lambda (eq6 for L_\mu) it looks like I need the - signs to get it to work??
     - ?Eq 18 **is** correct when following Townsend2003, and I can recover the L_\mu=-\lambda equation (plus an extra term? but still got the other 3 correctly...) so what are we missing on the eq17 minus signs?~~
     - **SOLVED**; the issue was that a minus sign was missing in the middle term of eq20, which would flip the sign on eq17 correctly (and does indeed result in the correct signs for eq19 which otherwise also would've had that issue, but is now correct)
 
