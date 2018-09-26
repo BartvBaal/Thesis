@@ -9,4 +9,9 @@
 * for intro; density/physical depth/coumn depth difference should be discussed
 
 
-#### 13 Sep 18
+#### 20 Sep 18
+
+* Reading on asymptotic limits
+    - General methods for solving differential equations every now and then
+    - When are tehy valid/when can you throw them away
+* Abramowitz and Stegun: Handbook of Mathematical Functions (reference book for functions)

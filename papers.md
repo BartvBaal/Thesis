@@ -38,10 +38,10 @@
 
 
 ### Asymptotic expressions for the angular dependence of low-frequency pulsation modes in rotating stars, Townsend 2003
-* ?How low frequency is "low-frequency"?
+* ?How low frequency is "low-frequency"? -- See if this is mentioned eventually in this paper or one of the older ones, it *should* be discussed at some point - once we know what it is can check if my solutions are in this low limit (or a high limit should that come to pass)
     - Low-frequency pulsation modes does **not** mean the star is slowly rotating per se
-* ?Condition for the star to be rotating with angular velocity (\Omega) which is uniform, but aren't NS rotating differentially?
-* ?To be sure - "equatorial" waves means they are 'stuck' on the equator right?
+* ?Condition for the star to be rotating with angular velocity (\Omega) which is uniform, but aren't NS rotating differentially? -- helps make the math nicer, but we're aware that they are (most likely) differentially rotating
+* ?To be sure - "equatorial" waves means they are 'stuck' on the equator right? -- Equatorial waves are waves confined to latitudes around the equator, some are more confined than others but in general they dampen out if they go too far from the equator
 * The traditional approximation permits the separation of the pulsation equations in all three spherical-polar coordinates (r, \theta, \phi) under the conditions:
     - Star is rotating with *uniform* angular velocity **\Omega**, *with* a neglected horizontal component when evaulating the inertial Coriolis force in the linearized momentum equations - this is valid when \Omega \equiv |**\Omega**| and \omega (pulsation angular frequency) in the corotating frame is significantly smaller than the Brunt-Väisälä frequency N
     - \Omega << (GM/R³)^.5 - centrifugal distortion of the quiescent star may be neglected (?Can bursting NS be considered quiescent?)
@@ -53,10 +53,18 @@
     - The polar (\theta) dependence is governed by Laplace's tidal equations. The eigensolutions are named after their originator Hough (1898)
     - the Hough functions constitute a one-parameter family in the "spin parameter" \nu \equiv 2\Omega/\omega. These are associated with an eigenvalue \lambda which is related to the effective horizontal wavenumber k_\perp of the pulsation via (k_\perp)²=\lambda/(r²). *Note* that negative values of \lambda **can** arise but they are not considered for this paper
 * General values of the spin parameter \nu force a numerical approach to solving Laplace's equations. However, approximate analytical solutions can be obtained which become exact in the asymptotic limit of large |\nu|
-* Math questions below
+* The paper specifically goes into the analytical, asymptotic limit |\nu| >> 1 demonstration to solve the tidal equations (eq 18, 21, 22), and will only retain those with the proper boundary conditions
+    - So for modes with m=/=0 (non-asisymmetric) this requires the solutions to decay towards zero as |\mu|->1 is approached to ensure (as much as possible) single values of the general solutions (eq8-12) at the stellar poles
+    - For axisymmetric modes, the same decay requirement is applied for the polar gradient of the solutions so the general solutions at the poles maintain smoothness
+* For larger values of |\nu|, the Hough functions remain close to zero outside of the interval |\mu| <~ |\nu|^-1 (so for larger |\nu|, Hough functions are zero except for smaller |\mu|)
+    - Yoshida (1959) started the idea of a Coriolis-force originated 'equatorial waveguide' which prevents low-frequency waves from propagating towards high latitudes and thus traps low-frequency waves in the equatorial area
+    - Large |\nu| can be achieved through large values of |**\Omega**| (angular velocity), or through small values of \omega, the angular frequency in the corotating frame. ?Note that the traditional approximation used requires both to be *significantly* smaller than the Brunt-Väisälä frequency N, so only the latter option will work, or is N some huge value? Does that mean that the low-frequency modes have to move around the star slowly (or at least slowly compared to the angular velocity or N)?
+
+* !Math questions below!
 * ~~?Eq 17 in the paper has minus signs on the LHS; I do not have any minus signs in my version of eq17, but I do get the matching Y_\perp:Y_p equation (14)? -- ??Checked with Frank he also doesn't get the - signs, and when checking with Bildsten 1996 paper to recover L_\mu=-\lambda (eq6 for L_\mu) it looks like I need the - signs to get it to work??~~
     - ~~?Eq 18 **is** correct when following Townsend2003, and I can recover the L_\mu=-\lambda equation (plus an extra term? but still got the other 3 correctly...) so what are we missing on the eq17 minus signs?~~
     - **SOLVED**; the issue was that a minus sign was missing in the middle term of eq20, which would flip the sign on eq17 correctly (and does indeed result in the correct signs for eq19 which otherwise also would've had that issue, but is now correct)
+* ?Can reproduce eq15/19 without the lambda too - why does it come in **here** and not somewhere else? Specifically because this is the continuity equation?
 
 
 
