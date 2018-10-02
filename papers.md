@@ -59,12 +59,20 @@
 * For larger values of |\nu|, the Hough functions remain close to zero outside of the interval |\mu| <~ |\nu|^-1 (so for larger |\nu|, Hough functions are zero except for smaller |\mu|)
     - Yoshida (1959) started the idea of a Coriolis-force originated 'equatorial waveguide' which prevents low-frequency waves from propagating towards high latitudes and thus traps low-frequency waves in the equatorial area
     - Large |\nu| can be achieved through large values of |**\Omega**| (angular velocity), or through small values of \omega, the angular frequency in the corotating frame. ?Note that the traditional approximation used requires both to be *significantly* smaller than the Brunt-Väisälä frequency N, so only the latter option will work, or is N some huge value? Does that mean that the low-frequency modes have to move around the star slowly (or at least slowly compared to the angular velocity or N)?
+* Small \mu leads to neglection of terms \sim \mu², so \mathcal{D} reduces to approximately \frac{d}{d\mu}
+    - Note that in eq22 it only dissapears when \lambda =/= \mu²
+* Eq 30 has a (close) resemblance to the time-independent Schrödinger equation for a quantum harmonic oscillator, which also describes a wave propagation within a quadratic potential well. The solution for Eq 30 under the set boundary conditions can only be achieved if S = 2s + 1, with s >= 0 as an integer of 'meridional order' - ?What is a meridional "order" specifically?
+    - Meridional means "along a longitudinal circle "(aka north-south direction)
+    - ?For vector fields the meridional component is the y-component (denoted as v typically) so how exactly should I look at this here?
+* The solutions to eq 30 are made with the "Hermite polynomials", but specifically the physicist ones. Have checked for the first two (where s=0, 1) and they are indeed correct.
+    - ?How much prove do I need to show that they are solutions / *how* do I show it, or can I skip that in my thesis (and just say "as noted by e.g. Townsend 2003, they are solutions")?
+
 
 * !Math questions below!
 * ~~?Eq 17 in the paper has minus signs on the LHS; I do not have any minus signs in my version of eq17, but I do get the matching Y_\perp:Y_p equation (14)? -- ??Checked with Frank he also doesn't get the - signs, and when checking with Bildsten 1996 paper to recover L_\mu=-\lambda (eq6 for L_\mu) it looks like I need the - signs to get it to work??~~
     - ~~?Eq 18 **is** correct when following Townsend2003, and I can recover the L_\mu=-\lambda equation (plus an extra term? but still got the other 3 correctly...) so what are we missing on the eq17 minus signs?~~
     - **SOLVED**; the issue was that a minus sign was missing in the middle term of eq20, which would flip the sign on eq17 correctly (and does indeed result in the correct signs for eq19 which otherwise also would've had that issue, but is now correct)
-* ?Can reproduce eq15/19 without the lambda too - why does it come in **here** and not somewhere else? Specifically because this is the continuity equation?
+* ?Can reproduce eq15/19 without the lambda too - why does it come in **here** and not somewhere else? Specifically because this is the continuity equation? -- Technically supposed to put it in for 14/17 and 14/18 too, but try and put in "\alpha" and add "\beta" instead of \lambda and the functions of \alpha and \beta are coupled so that you can set \alpha/alpha = 1 and \beta/\alpha = \lambda and thus only have one parameter
 
 
 

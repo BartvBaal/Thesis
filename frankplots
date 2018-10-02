@@ -1,0 +1,46 @@
+#/usr/bin/gnuplot
+
+set terminal qt size 520,520 persist
+
+
+l_eq_38 (m, s, q) = (q**2) * ((2.0*s + 1.0)**2)
+l_eq_39 (m, s, q) = ( (m*q - (m**2)) / q / (2.0*s + 1.0) )**2
+
+l_eq_40_41 (m, q) = (q - m)**2
+
+l_eq_55 (m, q) = (m**2) * 2*m*q / (2*m*q + 1.0)
+
+
+g_mode_cond = abs(1)
+r_mode_cond (m, s) = (2.0*s + 1.0 + m**2) / abs(m)
+k_mode_cond (m) = abs(3.0 / m)
+y_mode_cond (m, q) = (m*q < m**2 && m*q > 0) ? r_mode_cond(m, 0) : g_mode_cond
+
+
+
+l_l (lam, lim, q) = q < -lim ? lam : 1/0
+l_r (lam, lim, q) = q > lim  ? lam : 1/0
+
+
+
+set key right bottom
+
+m=-2
+
+set xlabel '{/Symbol n}'
+set xrange[-10:10]
+
+set ylabel '{/Symbol l}({/Symbol n})'
+set log y
+set format y '10^{%L}'
+set yrange[1.0e-1:7.0e3]
+
+
+plot l_r(l_eq_38(m, 1, x), g_mode_cond,       x) title 'g-mode, s = 1, eq (38)', \
+     l_r(l_eq_40_41(m, x), y_mode_cond(m, x), x) title 'y-mode, s = 0, eq (40)', \
+     l_r(l_eq_55(m, x),    k_mode_cond(m),    x) title 'k-mode, s = -1, eq (55)', \
+     l_l(l_eq_38(m, 3, x), g_mode_cond,       x) title 'g-mode, s = 3, eq (38)', \
+     l_l(l_eq_38(m, 2, x), g_mode_cond,       x) title 'g-mode, s = 2, eq (38)', \
+     l_l(l_eq_38(m, 1, x), g_mode_cond,       x) title 'g-mode, s = 1, eq (38)', \
+     l_l(l_eq_40_41(m, x), y_mode_cond(m, x), x) title 'y-mode, s = 0, eq (40)', \
+     l_l(l_eq_39(m, 1, x), r_mode_cond(m, 1), x) title 'r-mode, s = 1, eq (39)'

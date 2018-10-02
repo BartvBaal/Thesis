@@ -15,3 +15,8 @@
     - General methods for solving differential equations every now and then
     - When are tehy valid/when can you throw them away
 * Abramowitz and Stegun: Handbook of Mathematical Functions (reference book for functions)
+
+
+#### 26 Sep 18
+
+* Book is a different book than ^, as that does not contain asymptotic functions/solutions
