@@ -168,6 +168,21 @@ Chapter 3
     - So deltap/deltax = \rho g deltah/deltax
     - And deltap/deltay = \rho g deltah/deltay
     - So horizontal accelerations are independent of z and it is consistent to assume they will remain so at later times
+* Let  the thickness of a layer H be defined as H(x, y, t) = H_0(x, y) + \eta(x, y, t) with H_0 >> \eta. Furthermore, suppose that u and v (x- and y-velocity) are small enough so that \delta**u_H**/\delta**t** is also much larger than **u_H** * \grad**u_H**
+    - This allows you to reconstruct the linear forms of momentum and mass conservation (see page68, eq 3.6.3)
+    - Now define the linearized mass flux vector **U** = **i**U + **j**V, with U = uH_0, V = vH_0
+    - Further manipulation of this leads to an ODE for the velocities of u and v in terms of \eta, the perturbation of the initial height - see 3.6.12
+* The time-independent forms of 3.6.12 imply that >(where f is the coriolis parameter)<
+    - u = -g/f \delta\eta/\deltay
+    - v = g/f \delta\eta/\deltax
+    - These can be recognized as the geostrophic relation for the horizontal motions, and in particular the isolines of eta are streamlines for a steady geostrophic flow, as u\delta\eta/\deltax + v\delta\eta/\deltay = 0
+    - Lines of constant undisturbed depth H_0, coincide with lines of constant \eta in the x,y plane. As isolines of \eta are streamlines of a steady geostrophic flow, this means that the linearized geostropic flow must be along lines of constant depth
+    - Technically geostropic motion is only possibe if the contour lines of H_0 close on themselves or extend to infinity, however real motions are not precisely geostropic, but have relaxed steadiness or linearity constraints
+* For a solution of the form \eta = Re(\eta_0 e^(i(kx + ly - \simgat))), one can establish a dispertion relation:
+    - \sigma(**K**) = \pm{f²+C_0²K²}^½, where **K** is the wave vector and K is the wave number, with K=|**K**|, and where C_0² = gH_0
+    - This also means two free oscillations are present, which represent waves with phase speeds C = \pm{C_0² + f²/k²}^½
+    - For no rotation (so f=0) the phase at all wavelengths has the same speed; the shallow-water speed of classical linear theory. If there is rotation, the wave speed is increased
+
 
 
 
