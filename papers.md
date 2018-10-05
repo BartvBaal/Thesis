@@ -66,6 +66,8 @@
     - ?For vector fields the meridional component is the y-component (denoted as v typically) so how exactly should I look at this here?
 * The solutions to eq 30 are made with the "Hermite polynomials", but specifically the physicist ones. Have checked for the first two (where s=0, 1) and they are indeed correct.
     - ?How much prove do I need to show that they are solutions / *how* do I show it, or can I skip that in my thesis (and just say "as noted by e.g. Townsend 2003, they are solutions")?
+* ?The two eigenvalue branches are associated with the gmode/rmode respectively because of the way the functions depend on \nu - with the +branch going as \nu² while the -branch goes as \nu^0 to highest order, so compare with Pedlosky F3.10.1 (p83) to see the relation to the common waves?
+    - ?Since for NS the burning layer can be seen as "shallow water" approximation, or would this be true even if that approximation broke?
 
 
 * !Math questions below!
@@ -182,8 +184,16 @@ Chapter 3
     - \sigma(**K**) = \pm{f²+C_0²K²}^½, where **K** is the wave vector and K is the wave number, with K=|**K**|, and where C_0² = gH_0
     - This also means two free oscillations are present, which represent waves with phase speeds C = \pm{C_0² + f²/k²}^½
     - For no rotation (so f=0) the phase at all wavelengths has the same speed; the shallow-water speed of classical linear theory. If there is rotation, the wave speed is increased
-
-
+* The Poincaré waves discussed in 3.9 (possibility (i) on page 76) is called g-modes in eg the Townsend paper, ?check that this is indeed the same?
+    - They arise when \alpha² = n²\pi²/L² = (\simga² - f²)/C_0² - k² for n = int =/= 0
+    - The link in \alpha² equations leads to: \simga_n = \pm {f² + C_0²(k² + n²\pi²/L²)}^½ for n=1,2,3,... Do note the similarity to the dispertion relation above, except that the y-component of the wave vector is now quantized as an integral multiple of \pi/L. Also note that n = 0 is not a valid solution because the wave field would then have no variations in the y-axis, but there are now y-boundaries and thus for a rotating fluid this cannot be done
+    - Poincaré waves propagate their phase equally well in both positive and negative x-direction, and the frequency always exceeds f because the cross-stream wave number is quantized: \simga >= {f² + C_O²\pi²/L²}^½
+    - Equations 3.9.16 describe the dynamical fields for each mode
+* Possibility (ii) is a Kelvin wave, which illustrates that the simple balance-of-terms considerations need to be refined when the horizontal scales of the motion are not isotropic
+* The third possibility (\simga = f) is a spurious (fake) root of this eigenvalue problem, as the only working solution is a wave indistinguishable from the Kelvin wave
+* ?Doesn't equation 3.11.3 have the terms in the d/dt[] brackets the wrong way around, coming from 3.6.9?
+* Note for paper-writing; 3.12 has a helpful introduction as to why we're actually making the assumptions and where they come from & what we typically do to solve problems through the approximations 
+    - It also (eventually) introduces asymptotic series
 
 
 ---
