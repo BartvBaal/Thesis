@@ -68,6 +68,7 @@
     - ?How much prove do I need to show that they are solutions ~~/ *how* do I show it, or can I skip that in my thesis (and just say "as noted by e.g. Townsend 2003, they are solutions")?~~ Can show it through the derivative relation H_n'(x) = 2xH_n(x) - H_n+1(x)
 * ?The two eigenvalue branches are associated with the gmode/rmode respectively because of the way the functions depend on \nu - with the +branch going as \nu² while the -branch goes as \nu^0 to highest order, so compare with Pedlosky F3.10.1 (p83) to see the relation to the common waves?
     - ?Since for NS the burning layer can be seen as "shallow water" approximation, or would this be true even if that approximation broke?
+* The mixed r-mode/g-mode character of \lambda is called "Yanai mode" in this paper (other papers might refer to it as "mixed gravity-Rossby waves")
 
 
 * !Math questions below!

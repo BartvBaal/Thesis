@@ -20,3 +20,11 @@
 #### 26 Sep 18
 
 * Book is a different book than ^, as that does not contain asymptotic functions/solutions
+
+
+#### Mathematica code
+For Townsend 2003 eq 40/41 solutions on the s=0 case:
+
+(*lambda- *)FullSimplify[a^2 - a q + 0.5 q^2 (1 - Sqrt[1 - (4 (-a^2 + a q))/q^2]), Element[a | q, Reals]]
+
+(*lambda+ *)FullSimplify[a^2 - a q + 0.5 q^2 (1 + Sqrt[1 - (4 (-a^2 + a q))/q^2]), Element[a | q, Reals]]
