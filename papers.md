@@ -65,7 +65,7 @@
     - Meridional means "along a longitudinal circle "(aka north-south direction)
     - ?For vector fields the meridional component is the y-component (denoted as v typically) so how exactly should I look at this here?
 * The solutions to eq 30 are made with the "Hermite polynomials", but specifically the physicist ones. Have checked for the first two (where s=0, 1) and they are indeed correct.
-    - ?How much prove do I need to show that they are solutions / *how* do I show it, or can I skip that in my thesis (and just say "as noted by e.g. Townsend 2003, they are solutions")?
+    - ?How much prove do I need to show that they are solutions ~~/ *how* do I show it, or can I skip that in my thesis (and just say "as noted by e.g. Townsend 2003, they are solutions")?~~ Can show it through the derivative relation H_n'(x) = 2xH_n(x) - H_n+1(x)
 * ?The two eigenvalue branches are associated with the gmode/rmode respectively because of the way the functions depend on \nu - with the +branch going as \nu² while the -branch goes as \nu^0 to highest order, so compare with Pedlosky F3.10.1 (p83) to see the relation to the common waves?
     - ?Since for NS the burning layer can be seen as "shallow water" approximation, or would this be true even if that approximation broke?
 
@@ -194,6 +194,15 @@ Chapter 3
 * ?Doesn't equation 3.11.3 have the terms in the d/dt[] brackets the wrong way around, coming from 3.6.9?
 * Note for paper-writing; 3.12 has a helpful introduction as to why we're actually making the assumptions and where they come from & what we typically do to solve problems through the approximations 
     - It also (eventually) introduces asymptotic series
+* ?Latitude distance Y (p106) is the surface distance from the equator?
+* ?How much of Ch3.17 applies to a rapidly rotating sphere, as in do some/all assumptions hold in a very oblate case?
+* Rossby waves in a Zonal Current, do be careful with "eastern/western" flows, as they refer to the direction *the wave is travelling*, which is different from the meteorological naming, where those terms refer to the *origin of the flow* (eg in fluid lingo an eastern stream is **headed** east, while in meteorology an eastern stream **comes** from the east)
+    - **I will follow the fluid lingo**
+* Stationary (Rossby) flows are only possible in the western flow, if K=K_s=\beta^½ - ?This isn't just for a stationary sphere anymore, right - since f_0 and \beta_0 (3.17.6) depend on \Omega?
+    - ?Since Earth is rotating eastward, this means only contra-moving waves can be stationary (which makes sense i guess)?
+    - ?In Townsend 2003, m\nu > 0 is a retrograde direction, so both \lambda+ and - have retrograde directions, but only the \lambda- are Rossby waves? Is is because the + solution ends at \lamda+ = m², while we are under the assumption that \lambda =/= m² ergo the solution should be ruled out => only the retrograde Rossby wave (\lambda-) remains as a solution in the 0<m\nu<2m² region?
+
+
 
 
 ---
