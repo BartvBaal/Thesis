@@ -71,6 +71,16 @@
 * The mixed r-mode/g-mode character of \lambda is called "Yanai mode" in this paper (other papers might refer to it as "mixed gravity-Rossby waves")
 * Do note that the paper for Eq44 is wrong; it should be \mu_½ \sim ((2s+1)²/(m\nu-m²))^½ (the 2s+1 term is not squared in the paper)
     - In the section following this equation, they also mistakenly list the r-mode solutions validity; it should hold when m\nu >~ (2s+1)²+m² -- Note that in Figure1 it looks like they did implement the correct version, since it cuts off at ~\nu=-6
+* Lee&Saio1997 have shown that in the non-rotating limit, the \Theta Hough functions for all prograde modes and retrograde g-modes reduce to associated Legendre functions P^m_l where m is the usual azimuthal order and the integer l >= 0 is the harmonic degree
+    - ?Harmonic degree?
+    - However, this scheme does not include r modes nor retrograde Yanai modes, so Lee&Saio devised an alternative scheme which centers around the assignment of a unique integer index k
+    - For positive or zero k, a counterpart exists of harmonic degree l = |m| + k for the non-rotating limit
+    - For negative k, it relates to r modes and Yanai modes, or (for \lambda less than 0) convective modes which are neglected in this work
+    - This indexing of solutions with k is determined by the requirement that the eigenvalues \lambda_k *at every m and \nu* fall into the sequence \lambda_k+1 > \lambda_k. This is possible because the eigenvalues of the tidal equations are **guaranteed** to never be degenerate (Townsend1997a,b)
+* Can relate the meridional order s of the solutions easily to the k index
+    - Prograde modes: s = k - 1 (g-mode, Yanai mode and Kelvin mode)
+    - Retrograde modes: s = -k - 1 if r-mode, s = k + 1 if g-mode (both formula here work for Yanai mode)
+    - This means that the k-based indexing is capable of identifying all modes uniquely (unlike the s-indexing), see also Table1
 
 
 * !Math questions below!
@@ -162,7 +172,7 @@ Chapter 9
 Chapter 3
 
 * Dynamics of a shallow, rotating layer of a homogeneous incompressible and inviscid fluid
-* Fundamental parametric condition for shallow-water theory: \delta = D/L << 1 
+* Fundamental parametric condition for shallow-water theory: \delta = D/L << 1
     - D is the average depth of the layer
     - L is the characteristic horizontal length scale for the motion
 * Because of incompressibility and constant density the dynamics and thermodynamics are decoupled
