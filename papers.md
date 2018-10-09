@@ -69,6 +69,8 @@
 * ?The two eigenvalue branches are associated with the gmode/rmode respectively because of the way the functions depend on \nu - with the +branch going as \nu² while the -branch goes as \nu^0 to highest order, so compare with Pedlosky F3.10.1 (p83) to see the relation to the common waves?
     - ?Since for NS the burning layer can be seen as "shallow water" approximation, or would this be true even if that approximation broke?
 * The mixed r-mode/g-mode character of \lambda is called "Yanai mode" in this paper (other papers might refer to it as "mixed gravity-Rossby waves")
+* Do note that the paper for Eq44 is wrong; it should be \mu_½ \sim ((2s+1)²/(m\nu-m²))^½ (the 2s+1 term is not squared in the paper)
+    - In the section following this equation, they also mistakenly list the r-mode solutions validity; it should hold when m\nu >~ (2s+1)²+m² -- Note that in Figure1 it looks like they did implement the correct version, since it cuts off at ~\nu=-6
 
 
 * !Math questions below!
