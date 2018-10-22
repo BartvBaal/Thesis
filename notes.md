@@ -28,3 +28,8 @@ For Townsend 2003 eq 40/41 solutions on the s=0 case:
 (*lambda- *)FullSimplify[a^2 - a q + 0.5 q^2 (1 - Sqrt[1 - (4 (-a^2 + a q))/q^2]), Element[a | q, Reals]]
 
 (*lambda+ *)FullSimplify[a^2 - a q + 0.5 q^2 (1 + Sqrt[1 - (4 (-a^2 + a q))/q^2]), Element[a | q, Reals]]
+
+
+#### 22 Oct 18
+
+* Get into numerics

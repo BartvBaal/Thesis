@@ -26,7 +26,7 @@ l_eq_55 = lambda m, q : (m**2) * 2.*m*q / (2*m*q + 1.)
 
 ## q > condition statement (eg q>1 for g_mode)
 g_mode_cond = np.abs(1)
-r_mode_cond = lambda m, s : ((2.*s + 1.)**2 + m**2) / np.abs(m)  # paper error in 2s+1 term
+r_mode_cond = lambda m, s : ((2.*s + 1.)**2 + m**2) / np.abs(m)  # paper mistake in 2s+1 term
 k_mode_cond = lambda m : np.abs(3. / m)
 #y_mode_cond = lambda m, q : (m*q < m**2 and m*q > 0) ? r_mode_cond(m, 0) : g_mode_cond
 
