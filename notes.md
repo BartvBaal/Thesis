@@ -33,3 +33,14 @@ For Townsend 2003 eq 40/41 solutions on the s=0 case:
 #### 22 Oct 18
 
 * Get into numerics
+* First Legendre polynomials: (reminder m<=l)
+    - m=1, l=1,2,3
+    - m=2, l=2,3,4
+    - m=3, l=3,4,5
+    - m=4, l=4,5,6
+    - m=5, l=5,6,7
+
+
+#### 1 Nov 18
+
+* Need to rewrite setup for ODE with eigenvalue
