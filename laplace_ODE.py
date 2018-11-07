@@ -95,21 +95,22 @@ if __name__ == "__main__":
     start = -10.
     end = 10.
     steps = 1e5
-    init_cond = [10, 1, 0]  # lam=0, P=1, Q=0 initial conditions
+    init_cond = [2, 1, 0]  # lam=0, P=1, Q=0 initial conditions
     qlist = np.linspace(start, end, steps)  # Values of q - from -10 to 10
 
     lam = 0 # Wouldnt I want to rootfind on lam at the same time as solving the ODE?
-    func = Solver(qlist, -2, 0)  # Create Solver class (qlist, m, x, lam)
+    func = Solver(qlist, -2, -.5)  # Create Solver class (qlist, m, x)
 
     # Unsure what to do in this setup; do a rootfinder for lambda for **every**
     # value in qlist? and then plot those against each other?
     # And then do that for all different kinds of x (=mu)??
     # So rootfind to lambda for an entire matrix of q&x?
+    ## Need to figure out starting parameters for solver & init_cond for this setup
 
     solved = func.numerical_solver(init_cond)
     print solved[:,0]
-#    P_list = solved[:,0]
-#    plt.plot(qlist, P_list, lw=3)
+    P_list = solved[:,0]
+    plt.plot(qlist, P_list, lw=3)
 
 ##    plt.ylim(0, 1.25)
 #    plt.xlim(0, max(qlist))
@@ -118,7 +119,7 @@ if __name__ == "__main__":
 #    plt.xlabel(u"Values of x")
 #    plt.ylabel(u"Densities ($\u03B8^{n}$)")
 #    plt.grid(True)
-#    plt.show()
+    plt.show()
 
 
 #    density_compare(qlist, init_cond)
