@@ -17,7 +17,7 @@ import os
 
 
 l_eq_38 = lambda m, s, q : (q**2) * ((2.*s + 1.)**2)
-l_eq_39 = lambda m, s, q : ( (m*q - m**2) / (q * 2.*s + 1.) )**2
+l_eq_39 = lambda m, s, q : ( (m*q - m**2) / (q * (2.*s + 1.)) )**2
 
 l_eq_40_41 = lambda m, q : (q - m)**2
 
