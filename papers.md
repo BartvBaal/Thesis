@@ -70,7 +70,7 @@
     - ?Since for NS the burning layer can be seen as "shallow water" approximation, or would this be true even if that approximation broke?
 * The mixed r-mode/g-mode character of \lambda is called "Yanai mode" in this paper (other papers might refer to it as "mixed gravity-Rossby waves")
 * Do note that the paper for Eq44 is wrong; it should be \mu_½ \sim ((2s+1)²/(m\nu-m²))^½ (the 2s+1 term is not squared in the paper)
-    - In the section following this equation, they also mistakenly list the r-mode solutions validity; it should hold when m\nu >~ (2s+1)²+m² -- Note that in Figure1 it looks like they did implement the correct version, since it cuts off at ~\nu=-6
+    - In the section following this equation, they also mistakenly list the r-mode solutions validity; it should hold when m\nu >~ (2s+1)²+m² -- Note that in Figure1 it looks like they did implement the correct version, since it cuts off at ~\nu=-6 (and m=-2)
 * Lee&Saio1997 have shown that in the non-rotating limit, the \Theta Hough functions for all prograde modes and retrograde g-modes reduce to associated Legendre functions P^m_l where m is the usual azimuthal order and the integer l >= 0 is the harmonic degree
     - ?Harmonic degree?
     - However, this scheme does not include r modes nor retrograde Yanai modes, so Lee&Saio devised an alternative scheme which centers around the assignment of a unique integer index k
@@ -82,12 +82,15 @@
     - Retrograde modes: s = -k - 1 if r-mode, s = k + 1 if g-mode (both formula here work for Yanai mode)
     - This means that the k-based indexing is capable of identifying all modes uniquely (unlike the s-indexing), see also Table1
 
-
 * !Math questions below!
 * ~~?Eq 17 in the paper has minus signs on the LHS; I do not have any minus signs in my version of eq17, but I do get the matching Y_\perp:Y_p equation (14)? -- ??Checked with Frank he also doesn't get the - signs, and when checking with Bildsten 1996 paper to recover L_\mu=-\lambda (eq6 for L_\mu) it looks like I need the - signs to get it to work??~~
     - ~~?Eq 18 **is** correct when following Townsend2003, and I can recover the L_\mu=-\lambda equation (plus an extra term? but still got the other 3 correctly...) so what are we missing on the eq17 minus signs?~~
     - **SOLVED**; the issue was that a minus sign was missing in the middle term of eq20, which would flip the sign on eq17 correctly (and does indeed result in the correct signs for eq19 which otherwise also would've had that issue, but is now correct)
 * ?Can reproduce eq15/19 without the lambda too - why does it come in **here** and not somewhere else? Specifically because this is the continuity equation? -- Technically supposed to put it in for 14/17 and 14/18 too, but try and put in "\alpha" and add "\beta" instead of \lambda and the functions of \alpha and \beta are coupled so that you can set \alpha/alpha = 1 and \beta/\alpha = \lambda and thus only have one parameter
+
+
+### Thermonuclear Burst Oscillations, Anna Watts 2012
+* Are all burst oscillators ms pulsars? Is that selection/data bias?
 
 
 
