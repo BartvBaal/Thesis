@@ -91,6 +91,24 @@
 
 ### Thermonuclear Burst Oscillations, Anna Watts 2012
 * Are all burst oscillators ms pulsars? Is that selection/data bias?
+* "Sources with burst oscillations frequency <400 Hz tend to have short, most likely helium-dominated bursts". <> Didn't we discuss this in the last group meeting that there seems to be a limit at 401Hz, which if this is true could be due to the fact that they are He bursters? Would explain the plateau'ing of sources (as to why its 400, dunno)
+* PRE = Photospheric Radius Expansion
+* ?Burst Oscillation Trains?
+
+
+### The shallow-water equations in non-spherical geometry with latitudinal variation of gravity, Staniforth & White 2014
+* Non-spherical but still zonally symmetric (so at a certain latitude; \phi is still not coupled)
+* Dynamical consistency is defined as "the formal respect of converservation principles for axial angular momentum, energy and potential vorticity"
+* This paper explores the outline created by White&Wood(2012,Ch6) (aka WW12)
+* Geopotential is the gravitational potential of Earth's gravit field
+* Orthogonal curvilinear coordinates \xi_1, \xi_2, \xi_3 (zonal, meridional and vertical directions)
+  - All metric factors are independent of \xi_1 due to zonal symmetry
+  - For gradient/curl/divergence of OCC, see WW12
+  - Infinitesimal distance ds²=h_1²dxi_1² + h_2²dxi_2² + h_3²dxi_3²
+    - Here the metric (scale) factors h_i are related to the cartesian coordinates x/y/z by the following identity:
+    - h_i² \equiv (\frac{\deltax}{\delta\xi_i})² + (\frac{\deltay}{\delta\xi_i})² + (\frac{\deltaz}{\delta\xi_i})², i=1,2,3
+* Material derivative describes the time rate of change of some physical quantity (velocity components in the OCC system in this case) of a material element subjected to a space-and-time dependent macroscopic velocity field variation of this quantity. ?So it's just the full derivative expressed as the sum of the partial derivatives (of the separate components)?
+* The definition of apparent gravity g  in terms of the geopotential \Phi has been used: g \equiv \frac{1}{h_3}  \frac{d\Phi}{d\xi_3}
 
 
 

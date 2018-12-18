@@ -44,3 +44,14 @@ For Townsend 2003 eq 40/41 solutions on the s=0 case:
 #### 1 Nov 18
 
 * Need to rewrite setup for ODE with eigenvalue
+
+
+#### 18 Dec 18
+
+* Regarding Frank's new straddle function: what function (fn) do I give as input, LaPlace.solver_t(m, q, is_even) ? Just the shoot_laplace(lam, m, q, is_even) function ?
+* Note, the current idea of "multi_rootfind(<args>)" function should be adapted to function with straddle:
+  - Need to adapt the "if: ... else: ..." loop to call straddle with the correct parameters, where (fn) is TBD (see ^), (inc)/(fact) should be a <<SMALL>> number & (N_steps) decently large; having it as some fraction of what is currently shift seems reasonable? Or just make N_steps larger if shift is also larger, and choose a fixed inc/fact?
+  - The guessed lamlist in the "if: ... else: ..." loop will be the output of straddle.search_log(fn, init_x, fact, N_steps) (init_x should just be the previously found root -- will this work for the first step if I put it bang on the correct value [which is known from Legendre Polynomials  ])
+* In general need to do a restructuring of the code; remove old code (it's on git now so can always recover it), fix commenting style, reorganize function/file structure, fix naming (files should be small letters, Classes with Capitals etc), general sanity checks to be implemented (need to discuss with Frank what are good tests?). Might work on this during Christmas break if I get bored
+
+
