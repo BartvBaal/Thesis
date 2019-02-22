@@ -91,6 +91,7 @@
 
 ### Thermonuclear Burst Oscillations, Anna Watts 2012
 * Are all burst oscillators ms pulsars? Is that selection/data bias?
+  - They are not; initially people thought that "bursters don't pulse, and pulsars don't burst"
 * "Sources with burst oscillations frequency <400 Hz tend to have short, most likely helium-dominated bursts". <> Didn't we discuss this in the last group meeting that there seems to be a limit at 401Hz, which if this is true could be due to the fact that they are He bursters? Would explain the plateau'ing of sources (as to why its 400, dunno)
 * PRE = Photospheric Radius Expansion
 * ?Burst Oscillation Trains?
@@ -110,6 +111,12 @@
 * Material derivative describes the time rate of change of some physical quantity (velocity components in the OCC system in this case) of a material element subjected to a space-and-time dependent macroscopic velocity field variation of this quantity. ?So it's just the full derivative expressed as the sum of the partial derivatives (of the separate components)?
 * The definition of apparent gravity g  in terms of the geopotential \Phi has been used: g \equiv \frac{1}{h_3}  \frac{d\Phi}{d\xi_3}
 
+
+
+### r-Modes on Rapidly Rotating, Relativistic Stars. Do Type I Bursts excite modes in the Neutron Star Ocean, Heyl 2004
+* q \equiv \nu  ; do note that Townsend2003 makes an approximation for \Omega to be much less than ~14000 (back-of-the-envelope estimation for (GM/R³)^½) and that Heyl states \Omega to be several hundred Hertz -- is "several hundred" indeed much lower?
+* **HEYL states that modes should travel westward** IE that means m > 0, *but Townsend2003 has been using m=-2!* How much of this do I have to keep in mind? Heyl also states that m=-1 or 1; but that point has been shown to be mistaken, no?
+* *Unstable burning during type I bursts produces mainly iron-group elements, so the ocean is much more shallow than in the constant rate Z sources.* Does it become shallower during the burst, or is it always more shallow?
 
 
 ---
